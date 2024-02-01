@@ -7,7 +7,6 @@
 
 #ifndef ONBOARD_LED_H_
 #define ONBOARD_LED_H_
-#endif /* ONBOARD_LED_H_ */
 
 #include "stm32g0xx.h"
 
@@ -17,3 +16,4 @@ void EnableLed(void);
 void DisableLed(void);
 
 
+#endif /* ONBOARD_LED_H_ */

@@ -7,7 +7,6 @@
 
 #ifndef ADXL345_H_
 #define ADXL345_H_
-#endif /* ADXL345_H_ */
 
 #define ADXL345_ADDRESS 0x53
 
@@ -42,3 +41,5 @@
 #define DATAZ1		0x37	//Z-Axis Data 1
 #define	FIFO_CTL	0x38	//FIFO control
 #define	FIFO_STATUS	0x39	//FIFO status
+
+#endif /* ADXL345_H_ */

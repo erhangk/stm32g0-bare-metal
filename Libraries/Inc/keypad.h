@@ -7,7 +7,6 @@
 
 #ifndef KEYPAD_H_
 #define KEYPAD_H_
-#endif /* KEYPAD_H_ */
 
 #include "stm32g0xx.h"
 
@@ -26,3 +25,4 @@ void init_keypad(void);
 uint16_t scan_keypad(uint8_t row); // Function to scan the keypad
 uint8_t updateStatus(void); // Function to update status of GPIO
 
+#endif /* KEYPAD_H_ */

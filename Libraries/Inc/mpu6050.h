@@ -9,7 +9,6 @@
 
 #ifndef MPU6050_H_
 #define MPU6050_H_
-#endif /* MPU6050_H_ */
 
 #include "stm32g0xx.h"
 
@@ -57,3 +56,5 @@ typedef struct{
 }MPU6050;
 
 void printReadings(MPU6050 readings);
+
+#endif /* MPU6050_H_ */
